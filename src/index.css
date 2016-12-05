@@ -1,0 +1,90 @@
+html, body {
+  font-family: Open Sans, Arial, sans-serif;
+}
+
+.demo1 .month-view-header {
+  text-align: center;
+  font-weight: bold;
+}
+
+.demo1 .month-view-headers .month-view-header-weekend {
+}
+
+.demo1 .month-view-day-header {
+  text-align: right;
+  font-weight: bold;
+}
+
+.demo1 .month-view-day-weekend {
+  background-color: #F3F3F3;
+}
+
+.demo1 .month-view-day-in-previous-month {
+  background-color: #FAFAFA;
+  color: #AAA;
+}
+
+.demo1 .month-view-day-in-next-month {
+  background-color: #FAFAFA;
+  color: #AAA;
+}
+
+.demo1 .month-view-day-today > .month-view-day-header {
+  color: red;
+}
+
+.demo2 {
+  font-size: 0.75rem;
+}
+
+.demo2 .month-view thead th {
+  font-weight: normal;
+  color: #999;
+}
+
+.demo2 .table td, .demo2 .table th {
+  padding: 0.25rem;
+}
+
+.demo2 .table-bordered td {
+  /*border-bottom: none;*/
+  /*border-top: none;*/
+  border: none;
+}
+
+.demo2 .table-bordered th {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.demo2 .month-view-header {
+  text-align: center;
+}
+
+.demo2 .month-view-day-header {
+  display: none;
+}
+
+.demo2 .month-view-day-in-previous-month > .month-view-day-header {
+  visibility: hidden;;
+}
+.demo2 .month-view-day-in-previous-month > .month-view-day-body {
+  visibility: hidden;;
+}
+
+.demo2 .month-view-day-in-next-month > .month-view-day-header {
+  visibility: hidden;
+}
+
+.demo2 .month-view-day-in-next-month > .month-view-day-body {
+  visibility: hidden;
+}
+
+.demo2 .month-view-day-today > .month-view-day-body {
+  color: red;
+}
+
+.demo2 td.month-view-day {
+  padding: 0;
+}
